@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Koleksi Lego</string>
+    <string name="btn_web">Situs</string>
+    <string name="btn_detail">Detail</string>
+    <string name="title_highlight">Item Sorotan</string>
+    <string name="title_all_items">Semua Koleksi</string>
+    <string name="label_year">Tahun:</string>
+    <string name="label_theme">Tema:</string>
+    <string name="title_language">Ganti Bahasa</string>
+</resources>
