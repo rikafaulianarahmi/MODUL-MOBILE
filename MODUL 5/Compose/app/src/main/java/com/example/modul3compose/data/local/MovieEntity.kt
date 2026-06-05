@@ -1,0 +1,16 @@
+package com.example.modul3compose.data.local
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "movies")
+data class MovieEntity(
+    @PrimaryKey val id: Int,
+    val title: String,
+    val overview: String,
+    val posterPath: String?,
+    val releaseDate: String,
+    val voteAverage: Double,
+    val category: String,
+    val cachedAt: Long
+)
